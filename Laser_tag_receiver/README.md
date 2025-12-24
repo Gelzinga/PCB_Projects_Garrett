@@ -17,5 +17,6 @@ Design Choices
 
 Debugging Process
 1. Major challenge was fitting all of the components in the board. Several vias had to be used
-2. LT Spice schematic was used to verify appropriate attenuation of signals. 
+2. LT Spice schematic was used to verify appropriate attenuation of signals.
+3. Included hardware support for extra filters for more attenuation if needed. Pins were used that can be bypassed with header caps. 
    
