@@ -3,7 +3,7 @@
 
 
 This board is a receiver for a laser tag project. The circuit is built with two op-amps with active filtering. The low pass filters are implimented using a series capacitor and resistor, and the high pass filters 
-with the Gain bandwidth product property of the OP-AMP. The circuit attenuates high and low noise frequencies and provides around 160 dB of gain to the desired current domain signal genererated through the photdiode. 
+with the Gain bandwidth product property of the OP-AMP. The circuit attenuates high and low noise frequencies and provides around 160 dB of gain to the desired current domain signal genererated through the photdiode. Expected noise frequencies of 100 Hz and 10k hz. Circuit provides more than enough attenuation for noise signals, around 60 dB. 
 
 
 Design Choices 
